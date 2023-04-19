@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
 
 // typography
-$inter-r: 400 'Inter', sans-serif;
-$inter-b: 700 'Inter', sans-serif;
-$lexend-r: 700 'Lexend Deca', sans-serif;
+$inter-r: 400 0.9375rem/25px 'Inter', sans-serif;
+$inter-b-1: 700 1.5rem/29.05px 'Inter', sans-serif;
+$inter-b-2: 700 2.25rem/44px 'Inter', sans-serif;
+$lexend-r: 400 .75rem/25px 'Lexend Deca', sans-serif;
 
 // colors
 // 1. Primary
@@ -17,10 +18,3 @@ $soft-violet: #ab5cdb;
 $white-main-heading: hsl(0, 0%, 100%);
 $white-main-paragraph: hsla(0, 0%, 100%, 0.75);
 $white-stats-headings: hsla(0, 0%, 100%, 0.6);
-
-// responsive
-@mixin mobile {
-  @media (min-width: 375px) and (max-width: 1000px) {
-    @content;
-  }
-}
