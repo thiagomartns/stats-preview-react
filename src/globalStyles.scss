@@ -1,0 +1,26 @@
+// fonts import
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
+// typography
+$inter-r: 400 'Inter', sans-serif;
+$inter-b: 700 'Inter', sans-serif;
+$lexend-r: 700 'Lexend Deca', sans-serif;
+
+// colors
+// 1. Primary
+$very-dark-blue: #0a0c1c;
+$dark-desaturated-blue: #1b1937;
+$soft-violet: #ab5cdb;
+
+// 2.Neutral
+$white-main-heading: hsl(0, 0%, 100%);
+$white-main-paragraph: hsla(0, 0%, 100%, 0.75);
+$white-stats-headings: hsla(0, 0%, 100%, 0.6);
+
+// responsive
+@mixin mobile {
+  @media (min-width: 375px) and (max-width: 1000px) {
+    @content;
+  }
+}
