@@ -50,7 +50,6 @@
         }
       }
 
-
       .info-stats {
         display: flex;
         justify-content: space-between;
@@ -74,10 +73,13 @@
     .app-content--img {
       object-fit: cover;
       border-radius: 0px 8px 8px 0px;
-      width: 100%;
-      height: 100%;
-      background: url('./assets/img/image-header-desktop.jpg');
       position: relative;
+
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0px 8px 8px 0px;
+      }
 
       .overlay {
         position: absolute;
@@ -88,6 +90,7 @@
         background: $soft-violet;
         opacity: .75;
         mix-blend-mode: multiply;
+        border-radius: 0px 8px 8px 0px;
       }
     }
   }

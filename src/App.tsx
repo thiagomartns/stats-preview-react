@@ -27,6 +27,7 @@ function App() {
           </div>
         </div>
         <div className="app-content--img">
+          <img src={ImageDesktop} alt="" />
           <div className="overlay"></div>
         </div>
       </div>
