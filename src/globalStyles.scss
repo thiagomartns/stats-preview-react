@@ -18,3 +18,10 @@ $soft-violet: #ab5cdb;
 $white-main-heading: hsl(0, 0%, 100%);
 $white-main-paragraph: hsla(0, 0%, 100%, 0.75);
 $white-stats-headings: hsla(0, 0%, 100%, 0.6);
+
+// responsive
+@mixin mobile {
+  @media (min-width: 375px) and (max-width: 1000px) {
+    @content;
+  }
+}
